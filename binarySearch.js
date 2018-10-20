@@ -2,7 +2,7 @@
 
 function binartSearch(array, element){
     array = array.sort((a,b)=>a-b);
-    console.log(array);
+    // console.log(array);
     let start = 0;
     let end = array.length-1;
     while(start < end){
